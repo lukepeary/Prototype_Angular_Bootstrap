@@ -4,7 +4,7 @@
 /* ==========================================================================
    Imports
    ========================================================================== */
-
+@import "partials/variables";
 
 // Libs
 
@@ -13,7 +13,6 @@
 
 // Partials
 @import "partials/fonts";
-@import "partials/variables";
 @import "partials/base";
 @import "partials/type";
 @import "partials/header";

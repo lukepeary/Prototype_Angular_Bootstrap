@@ -1,0 +1,7 @@
+{
+	"dist": "dist",
+	"src": "src",
+	"stylesDir": "styles",
+	"scriptsDir": "js",
+	"imagesDir": "images"
+}

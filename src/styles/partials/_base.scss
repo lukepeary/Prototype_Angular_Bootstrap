@@ -7,24 +7,31 @@
 	padding: 0;
 }
 
-
-// Remove these centering styles and get started
-
 html, body {
 	height: 100%;
+	font-family: $arial;
 }
 
 .container {
-	display: table;
-	height: 90%;
-	padding-bottom: 70px;
-	.centered {
-		display: table-cell;
-		vertical-align: middle;
-		text-align: center;
-		ul {
-			list-style: none;
-		}
+
+}
+
+@media (min-width: $mobile){
+	.container {
+		
+	}
+}
+
+@media (min-width: $tablet){
+	.container {
+		
+	}
+}
+
+
+@media (min-width: $desktop){
+	.container {
+		
 	}
 }
 

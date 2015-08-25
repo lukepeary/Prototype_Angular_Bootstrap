@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Type Styles
+   ========================================================================== */
+
+
+
+h1, .h1 {
+	font-family: $myriad;
+	font-size: $h1-font-size-mob;
+	line-height: $h1-line-height-mob;
+	font-weight: bold;
+}
+
+h2, .h2 {
+	font-family: $myriad;
+	font-size: $h2-font-size-mob;
+	line-height: $h2-line-height-mob;
+}
+
+h3, .h3 {
+	font-family: $myriad;
+	font-size: $h3-font-size-mob;
+	line-height: $h3-line-height-mob;
+}
+
+p {
+ font-size: $base-font-size-mob;
+ line-height: $base-line-height-mob;
+}
+
+
+@media (min-width: $mobile){
+	.container {
+		
+	}
+}
+
+@media (min-width: $tablet){
+	h1, .h1 {
+		font-family: $myriad;
+		font-size: $h1-font-size;
+		line-height: $h1-line-height;
+	}
+
+	h2, .h2 {
+		font-family: $myriad;
+		font-size: $h2-font-size;
+		line-height: $h2-line-height;
+	}
+
+	h3, .h3 {
+		font-family: $myriad;
+		font-size: $h3-font-size;
+		line-height: $h3-line-height;
+	}
+
+	p {
+	 font-size: $base-font-size;
+	 line-height: $base-line-height;
+	}
+}
+
+
+@media (min-width: $desktop){
+	.container {
+		
+	}
+}
